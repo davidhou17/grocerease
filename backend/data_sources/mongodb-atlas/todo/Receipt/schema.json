@@ -1,0 +1,23 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        },
+        "title": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "owner_id",
+        "title",
+        "price",
+        "date",
+        "itemList"
+    ],
+    "title": "Receipt"
+}
